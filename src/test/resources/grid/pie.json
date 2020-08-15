@@ -1,0 +1,29 @@
+{
+  "capabilities":
+  [
+    {
+      "browserName": "Android 9 Pie over Pixel 2",
+      "version": "9",
+      "maxInstances": 1,
+      "platform": "Android",
+      "deviceName": "API28_Pie_9_Pixel2"
+    }
+  ],
+  "proxy": "org.openqa.grid.selenium.proxy.DefaultRemoteProxy",
+  "maxSession": 2,
+  "port": 4731,
+  "register": true,
+  "registerCycle": 5000,
+  "hubPort": "4444",
+  "hubHost": "127.0.0.1",
+  "url": "http://127.0.0.1:4731/wd/hub",
+  "nodeStatusCheckTimeout": 5000,
+  "nodePolling": 5000,
+  "role": "node",
+  "unregisterIfStillDownAfter": 60000,
+  "downPollingLimit": 2,
+  "debug": false,
+  "servlets" : [],
+  "withoutServlets": [],
+  "custom": {}
+}
